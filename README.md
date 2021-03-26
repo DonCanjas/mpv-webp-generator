@@ -20,7 +20,7 @@ First of all, you must make sure `ffmpeg` is in your `%PATH%` and accesible via 
 
 After setup, and if you wish, create a `%APPDATA%/mpv/script-opts` directory if it isn't created already and write a `webp.conf` file to configure the script. The three options the script offers (at least until now) are:
 
-* `dir` – Sets the output directory. Default is `C:/Program Files/mpv/gifs`.
+* `dir` – Sets the output directory. Default is `C:/Program Files/mpv/webp`.
 * `rez` – Sets the resolution of the output webp. Default is 450 width.
 * `fps` – Sets the framerate of the output webp. Default is 15. Don't go too overboard or the filesize will balloon.
 
