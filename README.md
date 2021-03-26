@@ -10,6 +10,7 @@ Thanks to July who helped me with ffmpeg's parameters.
 # Requirements 
 - Windows
 - mpv
+- ffmpeg
 
 # Installation
 
