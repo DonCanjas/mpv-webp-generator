@@ -25,8 +25,8 @@ After setup, and if you wish, create a `%APPDATA%/mpv/script-opts` directory if 
 * `fps` – Sets the framerate of the output webp. Default is 15. Don't go too overboard or the filesize will balloon.
 
 # webP settings
-* `quality` - Setted to 90 out of 100. You can replace `-qscale 90` with `-lossless 1` for a lossless encode, but it will encode as RGB and the filesize will be higher.
-* `compression` - Setted to 6 out of 6. The process might take a while, so if you don't want to wait, you should lower it.
+* `quality` - 90 out of 100. You can replace `-qscale 90` with `-lossless 1` for a lossless encode, but it will encode as RGB and the filesize will be higher.
+* `compression` - 6 out of 6. The process might take a while, so if you don't want to wait, you should lower it.
 
 ## Hotkeys
 
