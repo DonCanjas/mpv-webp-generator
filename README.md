@@ -4,6 +4,7 @@ Creates high quality animated webP images using mpv hotkeys on windows
 ![teste](https://files.catbox.moe/ejzd28.webp)
 
 Based on [Scheliux](https://github.com/Scheliux/)'s gif generator port to windows, which you cand find [here](https://github.com/Scheliux/mpv-gif-generator).
+Thanks to July who helped me with ffmpeg's parameters.
 
 # Requirements 
 - Windows
