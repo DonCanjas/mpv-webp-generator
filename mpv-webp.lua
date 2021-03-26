@@ -150,7 +150,7 @@ function make_webp_internal(burn_subtitles)
         copyts = "-copyts"
     end
 
-    args = string.format('ffmpeg -ss %s %s -t %s -i "%s" -lavfi "%s" -qscale 93 -compression_level 6 -y "%s"', position, copyts, duration, esc(pathname), esc(trim_filters), esc(webpname))
+    args = string.format('ffmpeg -ss %s %s -t %s -i "%s" -lavfi "%s" -qscale 90 -compression_level 6 -y "%s"', position, copyts, duration, esc(pathname), esc(trim_filters), esc(webpname))
     os.execute(args)
 
     msg.info("webP created.")
