@@ -1,5 +1,5 @@
-# mpv-webp-generator for *windows*
-Creates high quality animated webP images using mpv hotkeys on windows
+# mpv-webp-generator *for windows*
+Creates high quality animated webP using mpv hotkeys
 
 ![Fruits Basket Season 2](https://files.catbox.moe/rt0czz.webp)
 
