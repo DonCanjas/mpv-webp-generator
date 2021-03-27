@@ -13,6 +13,9 @@ local options = {
     dir = "C:/Program Files/mpv/webp/",
     rez = 600,
     fps = 15,
+    lossless = 0,
+    qscale = 90,
+    compression_level = 6,
 }
 
 read_options(options, "webp")
@@ -150,7 +153,7 @@ function make_webp_internal(burn_subtitles)
         copyts = "-copyts"
     end
 
-    args = string.format('ffmpeg -ss %s %s -t %s -i "%s" -lavfi "%s" -qscale 90 -compression_level 6 -lossless 0 -y "%s"', position, copyts, duration, esc(pathname), esc(trim_filters), esc(webpname))
+    args = string.format('ffmpeg -ss %s %s -t %s -i "%s" -lavfi "%s" -lossless "%s" -qscale "%s" -compression_level "%s" -y "%s"', position, copyts, duration, esc(pathname), esc(trim_filters), options.lossless, options.qscale, options.compression_level,  esc(webpname))
     os.execute(args)
 
     msg.info("webP created.")
@@ -174,5 +177,5 @@ end
 
 mp.add_key_binding("w", "set_webp_start", set_webp_start)
 mp.add_key_binding("W", "set_webp_end", set_webp_end)
-mp.add_key_binding("Ctrl+s", "make_webp", make_webp)
+mp.add_key_binding("Ctrl+w", "make_webp", make_webp)
 mp.add_key_binding("Ctrl+W", "make_webp_with_subtitles", make_webp_with_subtitles) --only works with srt for now
