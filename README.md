@@ -30,7 +30,7 @@ The three options the script offers (at least until now) are:
 # webp settings
 * `qscale` - set as 90 out of 100. It will determine the quality of the webp. Not recommended to go lower than 85. 
 * `lossless` - set as 0 by default (lossy), change to 1 for lossless. When doing a lossless export, `qscale` will no longer determine the quality, but the encoding eficiency.
-* `compression` - set as 6 out of 6. The process might take a while, so if you don't want to wait, you should lower it.
+* `compression_level` - set as 6 out of 6. The process might take a while, so if you don't want to wait, you should lower it, but the lower the value, the bigger the filesize.
 
 ## Usage
 You can use `,` and `.` to rewind or foward one frame at a time in order to select the desired starting and ending frames of the webp. You only need to define the start and ending times and to choose if exporting with or without subtitles. In order to do that, you can use the following hotkeys: 
