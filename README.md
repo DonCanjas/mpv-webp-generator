@@ -43,5 +43,5 @@ You can use `,` and `.` to rewind or foward one frame at a time in order to sele
 ## Stuff to do
 If you wish to contribute, here are some suggestions:
 
-* Add support for ass/ssa hardsubbing;
+* Add support for ass/ssa hardsubbing while keeping its styles;
 * Add support for a config file.
