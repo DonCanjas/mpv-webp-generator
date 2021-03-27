@@ -21,7 +21,7 @@ First of all, you must make sure `ffmpeg` is in your `%PATH%` and accesible via 
 # Configuration
 *Note this is still in progress and might not work properly*
 
-The three options the script offers (at least until now) are:
+The three options the script offers (at least for now) are:
 
 * `dir` – Sets the output directory. Default is `C:\Users\%USERNAME%\Desktop\`.
 * `rez` – Sets the resolution of the output webp. Default is 600 width.
@@ -45,4 +45,4 @@ If you wish to contribute, here are some suggestions:
 
 * Remake the section that handles hardsubbing to support not only srt, but also ass/ssa keeping its styles. Using `-map` should be a good idea.
 * Add support for a config file to customize not only webp's settings, but also keybindings and output directory. (at least I can't make it work on my pc)
-* Add automatic crop to crop black borders out of video without interfiring with DAR. User must be able to enable and disable this feature via .conf file.
+* Add automatic crop to crop black borders out of video without interfering with DAR. User must be able to enable and disable this feature via .conf file.
