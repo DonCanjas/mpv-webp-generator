@@ -33,9 +33,15 @@ The three options the script offers (at least until now) are:
 * `compression` - set as 6 out of 6. The process might take a while, so if you don't want to wait, you should lower it.
 
 ## Usage
-You can use `,` and `.` to rewind or foward one frame at a time in order to select the desired starting and ending frames of the webp. You only need to define the start and ending times and to choose if exporting with or without subtitles. In order to do that, you can use hotkeys: 
+You can use `,` and `.` to rewind or foward one frame at a time in order to select the desired starting and ending frames of the webp. You only need to define the start and ending times and to choose if exporting with or without subtitles. In order to do that, you can use the following hotkeys: 
 
 * `w` - Start time
 * `W` - End time
 * `CTRL+w` - Export webp
 * `CTRL+W` - Export webp with subtitles  - *only works with srt*
+
+## Stuff to do
+If you wish to contribute, here are some suggestions:
+
+* Add support for ass/ssa hardsubbing;
+* Add support for a config file.
