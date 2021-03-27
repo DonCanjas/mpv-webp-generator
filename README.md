@@ -3,7 +3,7 @@ Creates high quality animated webp using mpv hotkeys
 
 ![Fruits Basket Season 2](https://files.catbox.moe/rt0czz.webp)
 
-Based on [Scheliux](https://github.com/Scheliux/)'s gif generator port to windows, which you cand find [here](https://github.com/Scheliux/mpv-gif-generator).
+Based on [Scheliux](https://github.com/Scheliux/)'s [gif generator](https://gist.github.com/Ruin0x11/8fae0a9341b41015935f76f913b28d2a) port to windows, which you cand find [here](https://github.com/Scheliux/mpv-gif-generator).
 
 Thanks to July who helped me with ffmpeg's parameters.
 
