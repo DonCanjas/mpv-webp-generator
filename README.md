@@ -1,5 +1,5 @@
 # mpv-webp-generator *for windows*
-Creates high quality animated webP using mpv hotkeys
+Creates high quality animated webp using mpv hotkeys
 
 ![Fruits Basket Season 2](https://files.catbox.moe/rt0czz.webp)
 
@@ -27,7 +27,7 @@ After setup, and if you wish, create a `%APPDATA%/mpv/script-opts` directory if 
 * `rez` – Sets the resolution of the output webp. Default is 600 width.
 * `fps` – Sets the framerate of the output webp. Default is 15. Don't go too overboard or the filesize will balloon.
 
-# webP settings
+# webp settings
 * `qscale` - set as 90 out of 100. It will determine the quality of the webp. Not recommended to go lower than 85. 
 * `lossless` - set as 0 by default (lossy), change to 1 for lossless. When doing a lossless export, `qscale` will no longer determine the quality, but the encoding eficiency.
 * `compression` - set as 6 out of 6. The process might take a while, so if you don't want to wait, you should lower it.
