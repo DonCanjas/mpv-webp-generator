@@ -43,5 +43,5 @@ You can use `,` and `.` to rewind or foward one frame at a time in order to sele
 ## Stuff to do
 If you wish to contribute, here are some suggestions:
 
-* Add support for ass/ssa hardsubbing while keeping its styles;
+* Add support for ass/ssa hardsubbing while keeping its styles, hardsubbing the track the user has selected on mpv;
 * Add support for a config file to customize not only webp's settings, but also keybindings and output directory. (at least I can't make it work on my pc)
