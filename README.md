@@ -43,6 +43,6 @@ You can use `,` and `.` to rewind or foward one frame at a time in order to sele
 ## Stuff to do
 If you wish to contribute, here are some suggestions:
 
-* Remake the section that handles hardsubbing to support not only srt, but also ass/ssa keeping its styles.
+* Remake the section that handles hardsubbing to support not only srt, but also ass/ssa while keeping its styles.
 * Add support for a config file to customize not only webp's settings, but also keybindings and output directory. (at least I can't make it work on my pc)
 * Add automatic crop to crop black borders out of video without interfering with DAR. User must be able to enable and disable this feature via .conf file.
