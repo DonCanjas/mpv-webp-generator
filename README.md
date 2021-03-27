@@ -44,4 +44,4 @@ You can use `,` and `.` to rewind or foward one frame at a time in order to sele
 If you wish to contribute, here are some suggestions:
 
 * Add support for ass/ssa hardsubbing while keeping its styles;
-* Add support for a config file.
+* Add support for a config file to customize not only webp's settings, but also keybindings.
