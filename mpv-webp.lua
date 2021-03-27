@@ -16,7 +16,6 @@ local options = {
     lossless = 0,
     qscale = 90,
     compression_level = 6,
-    preset = none,
 }
 
 read_options(options, "webp")
@@ -154,7 +153,7 @@ function make_webp_internal(burn_subtitles)
         copyts = "-copyts"
     end
 
-    args = string.format('ffmpeg -ss %s %s -t %s -i "%s" -lavfi "%s" -lossless "%s" -qscale "%s" -compression_level "%s" -preset "%s" -y "%s"', position, copyts, duration, esc(pathname), esc(trim_filters), options.lossless, options.qscale, options.compression_level, options.preset,  esc(webpname))
+    args = string.format('ffmpeg -ss %s %s -t %s -i "%s" -lavfi "%s" -lossless "%s" -qscale "%s" -compression_level "%s" -y "%s"', position, copyts, duration, esc(pathname), esc(trim_filters), options.lossless, options.qscale, options.compression_level, esc(webpname))
     os.execute(args)
 
     msg.info("webP created.")
