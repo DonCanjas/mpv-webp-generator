@@ -36,5 +36,5 @@ After setup, and if you wish, create a `%APPDATA%/mpv/script-opts` directory if 
 
 * `w` - Start time
 * `W` - End time
-* `CTRL+w` - Export webP
-* `CTRL+W` - Export webP with subtitles *only works for srt*
+* `CTRL+w` - Export webp
+* `CTRL+W` - Export webp with subtitles *only works for srt*
