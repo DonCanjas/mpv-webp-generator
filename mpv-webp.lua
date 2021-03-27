@@ -10,7 +10,7 @@ require 'mp.options'
 local msg = require 'mp.msg'
 
 local options = {
-    dir = "C:/Program Files/mpv/webp/",
+    dir = "C:/Users/%USERNAME%/Desktop/",
     rez = 600,
     fps = 15,
     lossless = 0,
