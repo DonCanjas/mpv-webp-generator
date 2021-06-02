@@ -33,7 +33,7 @@ end
 
 -- Set this to the filters to pass into ffmpeg's -vf option.
 -- filters="fps=24,scale=320:-1:flags=spline"
-filters=string.format("fps=%s,scale='trunc(ih*dar/2)*2:trunc(ih/2)*2',setsar=1/1,scale=%s:-1:flags=spline", fps, options.rez) 
+filters=string.format("fps=%s,zscale='trunc(ih*dar/2)*2:trunc(ih/2)*2':f=spline36,setsar=1/1,zscale=%s:-1:f=spline36", fps, options.rez)  
 
 -- Setup output directory
 output_directory=options.dir
